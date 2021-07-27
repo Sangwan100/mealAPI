@@ -18,17 +18,17 @@ const mongoSanitize = require('express-mongo-sanitize')
 const xssClean =require('xss-clean');
 const hpp = require('hpp');
 const cors = require('cors');
-const router = express.Router();
+// const router = express.Router();
 
 
-router.get('/',function(req,res){
-    res.sendFile(path.join(__dirname+'/index.html'));
-    //__dirname : It will resolve to your project folder.
-  });
+// router.get('/',function(req,res){
+//     res.sendFile(path.join(__dirname+'/index.html'));
+//     //__dirname : It will resolve to your project folder.
+//   });
 
-  router.get('/docs',function(req,res){
-    res.sendFile(path.join(__dirname+'/docs.html'));
-  });
+//   router.get('/docs',function(req,res){
+//     res.sendFile(path.join(__dirname+'/docs.html'));
+//   });
 
 // setting up config.env file  variable
 
@@ -50,6 +50,7 @@ connectDatabase();
 
 app.use(express.urlencoded({extended:true}));
 
+// app.use('/static', express.static('public'))
 app.use(express.static('public'));
 
 //setup secruity headers
