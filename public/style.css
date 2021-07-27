@@ -1,0 +1,139 @@
+body{
+    background-image: url(./images/image4.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+header{
+    /* border: 2px solid red; */
+    display: flex;
+    /* background-color: rgb(126, 13, 13); */
+    flex-direction: row;
+    width: 100%;
+}
+.navBar{
+    display: flex;
+}
+.left-div{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    margin: 10px 10px;
+    width: 120px;
+    height: 120px;
+}
+.logo-title{
+    /* border: 2px solid blue; */
+    color:  rgb(9, 78, 46);
+    margin: 50px 00px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.middle-div{
+    /* border: 2px solid tomato; */
+    display: flex;
+    margin-left: 500px;
+}
+.nav-items{
+    /* border: 2px solid cyan; */
+    display: flex;
+    list-style: none;
+}
+.nav-list,a{
+    margin: 30px 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px; 
+}
+
+.nav-list>a:hover{
+    /* border: 2px solid green; */
+    border-radius: 12px;
+    background-color: rgb(32 47 32);
+    color: white;
+}
+
+.login{
+    /* border: 2px solid darkgreen; */
+    margin: 30px auto;
+    width: 100px;
+    height: 25px;
+    padding-left: 37px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    background-color: rgb(32 47 32);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.content-div{
+    border: 5px solid rgb(10, 48, 78);
+    display: flex;
+    background-color: cadetblue;
+    border-radius: 15px;
+    height: 350px;
+    width: 700px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 100px 100px;
+}
+
+.heading-div:first-child{
+    color: black;
+    font-size: 30px;
+    margin: 20px auto;
+    font-family: 'Libre Baskerville', serif;   
+}
+.paragraph-div{
+    /* border: 2px solid cyan; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+.paragraph-div>p{
+    font-size: 20px;
+    margin-left: 10px;
+      
+}
+
+.button-section{
+    /* border: 2px solid teal; */
+    display: flex;
+    margin: 20px auto;   
+}
+
+.API-doc-button>a{
+    border: 4px solid white;
+    margin: 30px 20px;
+    width: 100px;
+    height: 25px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    font-size: 19px;
+    background-color: rgb(32 47 32);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.signup-button>a{
+    border: 4px solid white;
+    margin: 30px 20px;
+    width: 100px;
+    height: 25px;
+    padding-left: 19 px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    background-color: rgb(32 47 32);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
